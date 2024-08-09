@@ -1,0 +1,172 @@
+.header{
+    background: rgb(255, 255, 255);
+    height: 300px;
+}
+.burger{
+    height: 10px;
+    width: 84px;
+    margin-left: 100px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+.burger__line{
+    background-color: rgb(0, 0, 0);
+    width: 100%; 
+    height: 10px;
+    margin-bottom: 10px;
+}
+.product__title{
+    color: rgb(0, 0, 0);
+    font-family: Nico Moji;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.product__img{
+margin-left: 1%;
+height: 400px;
+}
+.product__text{
+    color: rgb(0, 0, 0);
+    font-family: Nico Moji;
+    font-size: 46px;
+    font-weight: 300;
+    line-height: 66px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.product__price{
+    color: black;
+    font-family: Nico Moji;
+    font-size: 46px;
+    font-weight: 300;
+    line-height: 66px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.product__btn{
+    height: 290px;
+    width: 650px;
+    text-align: center;
+    font-size: 70px;
+}
+#btn-menu{
+    margin-top: 5%;
+    background: rgb(168, 115, 115);
+    padding: 12px;
+    color: black;
+    transition: 1s;
+    border-radius: 40px;
+}
+#btn-menu:hover{
+    background: green;
+    border-radius: 80px;
+    transform: rotate(180deg);
+}
+.menu__link{
+    text-decoration: none;
+    color: black;
+}
+.menu_list{display: flex;
+background: rgb(168, 115, 115);
+list-style: none;
+text-decoration: none;
+}
+.menu{
+    background: rgb(168, 115, 115);
+    border-radius: 10px 20px 30px 49px;
+    width: 240px;
+    display: none;
+}
+.menu__item{list-style: none;}
+.is-active
+{
+    display: block;
+}
+.container__clock{
+    margin-top: 70px;
+    text-align: center;
+    height: 100px;
+}
+.time{
+    color: black;
+    background: rgb(168, 115, 115);
+    font-size: 50px;
+    border-radius: 20px 30px 40px 50px;
+    text-align: center;
+    font-family: -apple-system;
+}
+.video__content{
+    position: absolute;
+    top: 0;
+    width: 1000px;
+    background: rgba(168, 115, 115, 0.6);
+    color: black;
+    font-size: 30px;
+    padding-left: 10%;
+}
+.video{
+    position: relative;
+}
+#myVideo{
+    width: 100%;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 70%;
+}
+.buttone{
+    text-align: center;
+}
+.video__btn{
+    font-size: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px 10px;
+    color: rgb(0, 0, 0);
+}
+#mute{
+    background: green;
+}
+.basket__img{
+    width: 160px;
+}
+.basket{
+    font-family: system-ui;
+    font-size: 30px;
+    background: rgb(168, 115, 115, 0.4);
+    cursor: pointer;
+    position: fixed;
+    top: 100;
+    bottom: 0;
+    left: 30px;
+    right: 100;
+    margin-bottom: 20px;
+}
+.gds__list{
+    list-style: none;
+    background: rgba(168, 115, 115, 0.8);
+    font-size: 50px;
+    width: 100%;
+    padding-left: 20px;
+    text-align: center;
+}
+.bodyn{
+background: rgb(165, 165, 165);
+}
+.nigh{
+    font-family: system-ui;
+    font-size: 30px;
+    background: rgb(168, 115, 115, 0.4);
+    cursor: pointer;
+    position: fixed;
+    top: 100;
+    bottom: 0;
+    left: 100;
+    right: 30px;
+    margin-bottom: 20px;
+}
